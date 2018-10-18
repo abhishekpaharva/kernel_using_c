@@ -58,7 +58,7 @@ void printch(char ch) {
 		if(pos_x != 0) {
 
 			buffer[idx - 2] = VGA_COLOR_BLACK;
-			pos_x--;
+			pos_x -= 2;
 			
 		}
 
