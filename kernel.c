@@ -1,8 +1,8 @@
-#include "display.h"
+#include "system.h"
+#include "types.h"
 
-void kmain(void)
-{
-	init_VGA();
+void starting() {
+
 	char *str1 = "\t\t\t\t\t                     ____   ____\n";
 	char *str2 = "\t\t\t\t\t||      || | ||   | (    ) (    )\n";
 	char *str3 = "\t\t\t\t\t| |    | | | | |  | (    ) (____\n";
@@ -15,6 +15,15 @@ void kmain(void)
 	print(str4);
 	print(str5);
 	print(str6);
+
+}
+
+void kmain(void) {
+
+	init_VGA();
+	idt_init();
+	kb_init();
+	starting();
 	print(">>>");
 
 	while(true);
