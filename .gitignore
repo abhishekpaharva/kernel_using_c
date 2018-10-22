@@ -1,0 +1,7 @@
+*.o
+kernel
+*.sh
+*.cfg
+*.iso
+*.img
+isodir/
