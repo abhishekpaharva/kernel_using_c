@@ -12,5 +12,8 @@ kernel with keyboard and screen suport
 
 # How to run
 <ul>
-  <li></li>
+  <li>./nasm.sh</li>
+  <li>./compile.sh</li>
+  <li>./link.sh</li>
+  <li>./run.sh</li>
 </ul>
