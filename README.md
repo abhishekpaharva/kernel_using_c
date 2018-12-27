@@ -37,5 +37,5 @@
 > ```
 > Boot kernel in nasm emulator with i386 architecture
 > ```
-> ./run
+> ./run.sh
 > ```
